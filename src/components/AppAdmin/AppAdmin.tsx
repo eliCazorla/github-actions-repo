@@ -17,7 +17,6 @@ const AppAdmin: FC<AppAdminProps> = ({ className }) => {
   const [buildOpen, buildSetOpen] = useState(true);
   const { width, height } = useWindowSize();
 
-  // test comment.
   return !removed ? (
     <div className={classNames('AppAdmin', css.root, className)}>
       <button onClick={() => setOpen(!open)}>{open ? 'Close ' : 'Open '} Admin</button>
