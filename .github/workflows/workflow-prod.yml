@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   build-prod:
-    uses: eliCazorla/github-actions-repo/.github/workflows/deploy-to-s3.yml@production
+    uses: eliCazorla/github-actions-repo/.github/workflows/deploy-to-s3.yml@main
     with:
       CI_ENV: production
       CONTENTFUL_ENVIRONMENT: 'production'
